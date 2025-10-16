@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSearch", "VehicleSea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSearchTest", "VehicleSearchTest\VehicleSearchTest.csproj", "{BCB11FE3-5D04-4588-A259-E60D8F7DD87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSearchAPI", "VehicleSearchAPI\VehicleSearchAPI.csproj", "{6D60FE03-B495-4B42-BD98-5E93DDFC42E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BCB11FE3-5D04-4588-A259-E60D8F7DD87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB11FE3-5D04-4588-A259-E60D8F7DD87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB11FE3-5D04-4588-A259-E60D8F7DD87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D60FE03-B495-4B42-BD98-5E93DDFC42E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D60FE03-B495-4B42-BD98-5E93DDFC42E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D60FE03-B495-4B42-BD98-5E93DDFC42E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D60FE03-B495-4B42-BD98-5E93DDFC42E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

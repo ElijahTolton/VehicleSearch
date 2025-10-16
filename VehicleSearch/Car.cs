@@ -26,10 +26,11 @@ public class Car
     /// <summary>
     /// Quantity of cars.
     /// </summary>
-    public int Quantity { get; set; }
+    public int Quantity { get; set; } = 1;
+
+    public Car() { }
 
     /// <summary>
-    /// 
     /// </summary>
     /// <param name="Length">Length of car in ft</param>
     /// <param name="Quantity">Number of cars to store</param>

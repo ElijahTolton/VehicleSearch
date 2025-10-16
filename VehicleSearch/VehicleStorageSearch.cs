@@ -32,6 +32,7 @@ public class VehicleStorageSearch
 
         string listingJson = File.ReadAllText("listings.json");
 
+
         // Deserialilze all of the given property listings.
         List<Listing> listings = JsonSerializer.Deserialize<List<Listing>>(listingJson); 
         if(listings == null)

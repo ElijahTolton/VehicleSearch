@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
@@ -30,7 +31,11 @@ public class VehicleStorageSearch
     {
         listingsMap = new Dictionary<string, List<Listing>>();
 
-        string listingJson = File.ReadAllText("listings.json");
+        //string listingJson = File.ReadAllText("listings.json");
+        // Get the folder of this DLL
+        string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
+        string filePath = Path.Combine(assemblyFolder, "listings.json");
+        string listingJson = File.ReadAllText(filePath);
 
 
         // Deserialilze all of the given property listings.

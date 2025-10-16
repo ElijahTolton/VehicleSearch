@@ -5,6 +5,9 @@ using VehicleSearch;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Urls.Add($"http://*:{port}");
+
 VehicleStorageSearch search = new VehicleStorageSearch();
 
 // Define endpoint
